@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Cart.css';
 
 const Cart = (props) => {
@@ -22,12 +21,7 @@ const Cart = (props) => {
 					<span>Total Price: </span>
 					<span>${getRoundFigure(total)}</span>
 				</div>
-				
-				
-				<div>
-					
-					
-				</div>
+
                 <div className="checkout-btn">
                     <button className="btn btn-success">
                              Checkout

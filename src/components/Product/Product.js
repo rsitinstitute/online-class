@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Product.css';
 
 const Product = (props) => {
@@ -16,7 +15,7 @@ const Product = (props) => {
                 <button 
                     className="btn btn-success main-btn"
                     onClick = {() => props.handleAddProduct(props.product)}>
-                        Enroll Now
+                      Enroll Now
                     </button>
             </div>
         </div>
